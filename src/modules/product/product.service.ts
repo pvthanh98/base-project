@@ -15,24 +15,41 @@ export class ProductService {
         private readonly categoryRepository: Repository<Category>,
     ){}
 
-    async createProduct(data: CreateProductDto){
+    /** Insert product */
+    async createProduct(data: CreateProductDto):Promise<Product>{
         const { categoryId, ...productData } = data;
 
+        /** Find category */
         const category = await this.categoryRepository.findOne({
             where: {
                 id: categoryId
             }
         })
         
+        /** Check if category exists */
         if (!category) 
             throw new BadRequestException(CATEGORY_ERROR.NOT_FOUND)
 
+        /** Create product with the category */
         const product = await this.productRepository.create({
             ...productData,
             category: category
         });
+
+        /** Save the product */
         await this.productRepository.save(product);
+
         return product;
-        
+    }
+
+    /** List products */
+    async listProduct(): Promise<Product[]>{
+        return this.productRepository
+                .createQueryBuilder("product")
+                .innerJoinAndSelect("product.category","category")
+                .where("product.id=:id",{
+                    id:"df823edf-9fc1-4caa-a006-9a203905d1ea"
+                })
+                .getMany();
     }
 }
