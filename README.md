@@ -1,6 +1,4 @@
 # BASE PROJECT
-
-## Description
 Base source for NestJS:
 
 ## Technologies
