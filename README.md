@@ -1,5 +1,7 @@
 # BASE PROJECT
 Base source for NestJS:
+- Author: ThanhPhan
+- Email: pvthanh98it@gmail.com
 
 ## Technologies
 - AWS Cognito
