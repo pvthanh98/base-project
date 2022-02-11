@@ -1,5 +1,7 @@
 # BASE PROJECT
-Base source for NestJS
+Description:
+- Base source for NestJS
+Contact:
 - Author: ThanhPhan
 - Email: pvthanh98it@gmail.com
 
