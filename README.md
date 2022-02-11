@@ -1,5 +1,5 @@
 # BASE PROJECT
-Base source for NestJS:
+Base source for NestJS
 - Author: ThanhPhan
 - Email: pvthanh98it@gmail.com
 
