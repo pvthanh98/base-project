@@ -6,7 +6,7 @@ Contact:
 - Author: ThanhPhan
 - Email: pvthanh98it@gmail.com
 
-![alt text](https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/273759631_1607473922923524_7081955454757173965_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=JnvV_NLnPEEAX_6KUBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AT_HREvGWC_NtgrI_XBRH7ZgAE97Kw556eY8fhIYwf9pGw&oe=620A2C78)
+![alt text](https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/273759631_1607473922923524_7081955454757173965_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=JnvV_NLnPEEAX_6KUBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AT_HREvGWC_NtgrI_XBRH7ZgAE97Kw556eY8fhIYwf9pGw&oe=620A2C78) | width=100
 
 ## Technologies
 - AWS Cognito
